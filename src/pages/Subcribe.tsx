@@ -2,6 +2,7 @@ import { FormEvent, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Logo } from "../components/Logo";
 import { useCreateSubscriberMutation } from "../graphql/generated";
+//import Group7735 from "../assets/Group7735.png"
 
 export function Subcribe() {
 
@@ -73,6 +74,7 @@ export function Subcribe() {
         </div>
 
         <img src="/assets/code-mockup.png" alt="Mockup" className="mt-5 max-w-full" />
+        // <img src={Group7735} alt="" className="mt-10" />
       </div>
     </div>
   )
